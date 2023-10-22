@@ -42,6 +42,7 @@ html,body{
     max-width: 1920px ;
     height: 100vh;
     /* border:1px solid white ; */
+    position: relative;
 }
 
 #nav{
@@ -84,7 +85,41 @@ html,body{
 }
 
 #hero{
-    width: 100%
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+/* 
+    to keep this div in center */
+    position:absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
 
 }
+#heroleft{
+    min-width: 50%;
+    /* height:100px; */
+    background-color: yellow;
+}
+
+#heroright{
+    min-width: 25%;
+    /* height:100px; */
+    background-color: rgb(94, 255, 0);
+}
+
+#heroleft .elem h1{
+    
+}
+
+
+
+
+
+
+
+
+
 
