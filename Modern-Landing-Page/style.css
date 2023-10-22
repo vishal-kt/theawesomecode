@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,body{
+    width: 100%;
+    height: 100vh;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+#top{
+/* 
+    to bring top above the back */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+}
+
+#workingarea{
+
+/*   
+    to center this working area we made margin 0 and auto  */
+    margin: 0 auto;
+      /* here we need to composate for every screen size */
+    width: 80%;
+    max-width: 1920px ;
+    height: 100vh;
+    border:1px solid white ;
+}
