@@ -101,7 +101,7 @@ html,body{
 #heroleft{
     min-width: 50%;
     /* height:100px; */
-    background-color: yellow;
+  
 }
 
 #heroright{
@@ -112,6 +112,7 @@ html,body{
 
 #heroleft .elem h1{
     
+      
 }
 
 
