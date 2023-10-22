@@ -78,4 +78,13 @@ html,body{
     
 }
 
+#nav a:hover{
+    color: yellow;
+ 
+}
+
+#hero{
+    width: 100%
+
+}
 
