@@ -1,16 +1,36 @@
-import { Kumar_One } from 'next/font/google'
-import React from 'react'
+// "use client"
+// import React, { useState } from 'react'
+
+// const page = () => {
+//   // let name = "vishal"
+//   const [name ,setnames]= useState("vishal")
+//   return (
+//     <div>
+//       <>
+//       <h1> my name is  {name}</h1>
+//       <button onClick={()=>{setnames("vishal kumar")}} id="btn">SUBMIT</button>
+//       </>
+//     </div>
+//   ) 
+// }
+
+// export default page
+
+
+"use client"
+import React, { useState } from 'react'
+import Header from '@/Components/Header'
+
 
 const page = () => {
-  // const a = 10 
-  const first = "Vishal" 
-  const last = "Kumar"
+
+  const [name,setname] = useState("vishal")
+  const [tech,settech]=useState("Android")
   return (
-    <div>
-     <h1 className='font-bold text-xl text-white'>my first name is {first}</h1>
-     <button></button>
-    </div>
-  
+    <>
+      <Header name ={name} tech = {tech}/>
+      
+    </>
   )
 }
 

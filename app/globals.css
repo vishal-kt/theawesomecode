@@ -29,8 +29,25 @@ body {
 body{
   background-color:#000;
   color: white;
+  font-family: 'Gloriy';
 }
 
 h1{
   font-size: 3vw;
+  color: white;
+}
+h4{
+  font-size:1vw;
+  color: #000;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#btn{
+  margin: 2vw;
+
+  background-color:#fff;
+  width:5vw;
+  height:4vh;
+  color: #000;
+  border-radius: 10px;
 }
