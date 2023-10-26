@@ -8,7 +8,9 @@ const page = () => {
   return (
     <div>
      <h1 className='font-bold text-xl text-white'>my first name is {first}</h1>
+     <button></button>
     </div>
+  
   )
 }
 
